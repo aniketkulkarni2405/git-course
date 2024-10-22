@@ -1,0 +1,4 @@
+git status --> Provides the status like current branch,commits,etc.
+git config --global --list --> provied uname and main
+git add [File name] --> To add the changes in staging area(Before comit i.e to save in local repo(.git) we must stage the changes)
+git log --> To see all the commits.
