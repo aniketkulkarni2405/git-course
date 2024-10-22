@@ -2,3 +2,7 @@ git status --> Provides the status like current branch,commits,etc.
 git config --global --list --> provied uname and main
 git add [File name] --> To add the changes in staging area(Before comit i.e to save in local repo(.git) we must stage the changes)
 git log --> To see all the commits.
+git commit -m "My first comit" --> To commit the changes(save in local repo).
+git commit -a -m "My first comit" --> To commit with staging the changes.
+git diff --> To view the diff between modified file and previously commited file.
+git diff --staged --> Same, just used in case of changes are staged.
