@@ -5,4 +5,9 @@ git log --> To see all the commits.
 git commit -m "My first comit" --> To commit the changes(save in local repo).
 git commit -a -m "My first comit" --> To commit with staging the changes.
 git diff --> To view the diff between modified file and previously commited file.
-git diff --staged --> Same, just used in case of changes are staged.        
+git diff --staged --> Same, just used in case of changes are staged.  
+git rm --cached "Creds.txt" --> If if mistakenly commited unwanted file to .git then use this 
+                                command to remove the file from .git    
+git branch -M main --> This will create a main branch
+
+How to create a ssh key? --> ssh-keygen -o
