@@ -11,3 +11,9 @@ git rm --cached "Creds.txt" --> If if mistakenly commited unwanted file to .git 
 git branch -M main --> This will create a main branch
 
 How to create a ssh key? --> ssh-keygen -o
+git remote add origin git@github.com:aniketkulkarni2405/git-course.git
+--> Origin will represent the remote repo now.
+git push -u origin main --> To push the content to remote repo.
+
+git tag -> To list all the tags i.e version of the content.
+git tag -a v1.0 -m "First Release" -> To provide an annotated tag to the content.
