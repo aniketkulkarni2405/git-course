@@ -1,5 +1,5 @@
 git status --> Provides the status like current branch,commits,etc.
-git config --global --list --> provied uname and main
+git config --global --list --> provide uname and main
 git add [File name] --> To add the changes in staging area(Before comit i.e to save in local repo(.git) we must stage the changes)
 git log --> To see all the commits.
 git commit -m "My first comit" --> To commit the changes(save in local repo).
@@ -17,3 +17,4 @@ git push -u origin main --> To push the content to remote repo.
 
 git tag -> To list all the tags i.e version of the content.
 git tag -a v1.0 -m "First Release" -> To provide an annotated tag to the content.
+git push origin v1.0 -> To push the tag in remote repo
